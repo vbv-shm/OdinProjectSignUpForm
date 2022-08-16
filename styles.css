@@ -1,0 +1,142 @@
+body{
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+outerMostContainer{
+    display: flex;
+
+    padding: 0px;
+    margin: 0px;
+    /* min-width:0; */
+    justify-content: stretch;
+}
+div{
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    height: 798px;
+    /* background-color: aqua; */
+    min-width: 0;
+    overflow: hidden;
+}
+
+#firePicture{
+    height: 800px;
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    /* height: 100px; */
+}
+textdiv{
+    display: flex;
+    flex-direction: column; 
+    justify-items: stretch;
+    overflow: hidden;
+}
+first{
+    
+    height:250px;
+    background-color: rgb(249, 228, 199);
+    display: block;
+    width:1100px
+    
+}
+textinside{
+    margin-left: 50px;
+    margin-right: 300px;
+    margin-top: 50px;
+    display:block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: rgb(111, 70, 9);
+
+}
+second{
+    height:300px;
+    background-color: rgb(255, 245, 233);
+    display: block;
+    width:1100px;
+    box-shadow: black;
+    box-shadow: 2px;
+}
+third{
+    height:250px;
+    background-color: rgb(249, 228, 199);
+    display: block;
+    width:1100px
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+formitem{
+    margin-left: 100px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.fitemright{
+    margin-right: 300px;
+}
+label{
+    width: 200px;
+}
+/* form{
+    margin-top: 10px;
+} */
+p{
+    margin: 10px;
+    text-align: center;
+    margin-right: 420px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: rgb(221, 118, 1);
+}
+flyingbox{
+    position: absolute;
+    width: 496px;
+    background-color: rgb(252, 219, 147);
+    opacity: 0.5;
+    height: 150px;
+    top:100px;
+}
+#odinPicture{
+    width: 100px;
+    color: rgb(58, 43, 2);
+    margin-left: 180px;
+}
+input:focus{
+    border-width: 3px;
+    border-style:solid;
+    border-color:blue;
+  
+    box-shadow: 10px;
+    box-shadow: skyblue;
+}
+button{
+    margin-left: 300px;
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: brown;
+    width:125px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    box-shadow: 4px black;
+}
+lastText{
+    display:block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: brown(111, 70, 9);
+    font-size:small;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+qq{
+    color: rgb(223, 41, 5);
+}
